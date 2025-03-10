@@ -1,6 +1,6 @@
 # Technical Specification for "Unit Circle Explorer" Streamlit Application
 
-This document provides the detailed technical specifications for developing a one-page Streamlit application titled "Unit Circle Explorer." The app is designed to enhance the understanding of the unit circle and its relationship with angles and trigonometric functions.
+This document provides the detailed technical specifications for developing multi-page Streamlit application titled "Unit Circle Explorer." The app is designed to enhance the understanding of the unit circle and its relationship with angles and trigonometric functions.
 
 ## Overview
 
