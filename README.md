@@ -1,33 +1,47 @@
 
-# QuCreate Streamlit Lab
+# Unit Circle Explorer
 
-This repository contains a Streamlit application for demonstrating the features and capabilities of the QuCreate platform.
+## Overview
+The **Unit Circle Explorer** is an educational Streamlit application designed to aid the understanding of the unit circle and its relationship with angles and trigonometric functions. Users can interactively explore trigonometric concepts, visualize sine, cosine, and tangent values, and understand the unit circle better through engaging visualizations.
 
 ## Features
-- Streamlit sidebar with a company logo.
-- Template for easy development.
-- Placeholder for adding custom code.
+- **Interactive Angle Selection**: Adjust angles using a slider or input box supporting both degrees and radians.
+- **Dynamic Updates**: Visualizations and outputs update in real-time based on user input.
+- **Unit Circle Visualization**: A clear rendering of the unit circle highlighting the angle and corresponding coordinates.
+- **Trigonometric Function Display**: Values for sin(θ), cos(θ), and tan(θ) are displayed dynamically.
+- **User Guidance**: Tooltips and explanations to enhance understanding.
 
-## Getting Started
+## Requirements
+- Python 3.12
+- Streamlit
+- Plotly
+- NumPy
 
-### Prerequisites
-- Python 3.8 or later
-- Streamlit installed (see `requirements.txt`).
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone <repository-link>
+    cd <repository-directory>
+    ```
+2. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
-`pip install -r requirements.txt`
+## Running the Application
+To run the application, use the following command:
 
-### Running the Application
-1. Run the Streamlit app:
+This will launch the application in your default web browser.
 
-### Development
-1. Modify the `app.py` file to add your custom code.
-2. Use the placeholder section (`# Code goes here`) to add new functionality.
+## Docker Instructions
+To run the application using Docker, ensure that Docker is installed on your machine. Then build and run the Docker container using:
 
-### Deployment
-- Deploy your Streamlit app using Streamlit Sharing, Docker, or any other platform supporting Python web applications.
+The application will be accessible at `http://localhost:8508`.
 
-## License
-© 2025 QuantUniversity. All Rights Reserved. Educational use only. For licensing details, please contact QuantUniversity.
+## Conclusion
+The Unit Circle Explorer serves as a valuable educational tool, enabling users to visualize and interact with critical trigonometric concepts, promoting deeper understanding and engagement with mathematical principles.
+
+---
+
+### © 2025 QuantUniversity. All Rights Reserved.
+The purpose of this demonstration is solely for educational use and illustration. To access the full legal documentation, please visit this link. Any reproduction of this demonstration requires prior written consent from QuantUniversity.
