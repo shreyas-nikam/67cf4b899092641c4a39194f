@@ -1,47 +1,35 @@
 
-# Unit Circle Explorer
+# Unit Circle Explorer Streamlit Application
 
 ## Overview
-The **Unit Circle Explorer** is an educational Streamlit application designed to aid the understanding of the unit circle and its relationship with angles and trigonometric functions. Users can interactively explore trigonometric concepts, visualize sine, cosine, and tangent values, and understand the unit circle better through engaging visualizations.
+The Unit Circle Explorer is an educational tool designed to visualize and interact with trigonometric concepts including the unit circle and the corresponding sine, cosine, and tangent functions.
 
 ## Features
-- **Interactive Angle Selection**: Adjust angles using a slider or input box supporting both degrees and radians.
-- **Dynamic Updates**: Visualizations and outputs update in real-time based on user input.
-- **Unit Circle Visualization**: A clear rendering of the unit circle highlighting the angle and corresponding coordinates.
-- **Trigonometric Function Display**: Values for sin(θ), cos(θ), and tan(θ) are displayed dynamically.
-- **User Guidance**: Tooltips and explanations to enhance understanding.
+- **Unit Circle Visualization**: Users can explore the unit circle by selecting angles through a slider or text input. The circle visual updates dynamically to reflect the chosen angle.
+- **Trigonometric Functions Explorer**: Users can visualize sine, cosine, and tangent functions in relation to the selected angle, with real-time updates of their values.
+- **Interactive Components**: The application offers a user-friendly interface where users can select angles and immediately see the effects on the unit circle and trigonometric graphs.
+  
+## Setup Instructions
+1. Clone this repository:
+   \`\`\`bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   \`\`\`
+2. Navigate into the project directory:
+   \`\`\`bash
+   cd YOUR_REPOSITORY
+   \`\`\`
+3. Install dependencies:
+   \`\`\`bash
+   pip install -r requirements.txt
+   \`\`\`
+4. Run the application:
+   \`\`\`bash
+   streamlit run app.py
+   \`\`\`
+5. Open your browser and go to `http://localhost:8501` to view the application.
 
-## Requirements
-- Python 3.12
-- Streamlit
-- Plotly
-- NumPy
+## License
+This application is for educational use only.
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone <repository-link>
-    cd <repository-directory>
-    ```
-2. Install the dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Running the Application
-To run the application, use the following command:
-
-This will launch the application in your default web browser.
-
-## Docker Instructions
-To run the application using Docker, ensure that Docker is installed on your machine. Then build and run the Docker container using:
-
-The application will be accessible at `http://localhost:8508`.
-
-## Conclusion
-The Unit Circle Explorer serves as a valuable educational tool, enabling users to visualize and interact with critical trigonometric concepts, promoting deeper understanding and engagement with mathematical principles.
-
----
-
-### © 2025 QuantUniversity. All Rights Reserved.
-The purpose of this demonstration is solely for educational use and illustration. To access the full legal documentation, please visit this link. Any reproduction of this demonstration requires prior written consent from QuantUniversity.
+## Acknowledgments
+This project was developed as part of the QuantUniversity educational initiatives.
